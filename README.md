@@ -45,8 +45,8 @@ To enforce code style during build, add the following configuration:
         <version>${maven-checkstyle-plugin.version}</version>
         <dependencies>
             <dependency>
-                <groupId>com.github.finoid</groupId>
-                <artifactId>com.github.finoid</artifactId>
+                <groupId>io.github.finoid</groupId>
+                <artifactId>io.github.finoid</artifactId>
                 <version>${finoid-code-style.version}</version>
             </dependency>
             <dependency>
