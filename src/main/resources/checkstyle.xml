@@ -367,9 +367,14 @@
         <module name="StringLiteralEquality"/>
         <module name="UnusedImports"/>
         <module name="RegexpSinglelineJava">
+            <property name="id" value="systemOutputCheck"/>
             <property name="format" value="System\.(out|err).*|System\.exit\([0-9]{1,}\)"/>
             <property name="ignoreComments" value="true"/>
             <property name="message" value="Using System.out, System.err or System.exit is forbidden."/>
+        </module>
+        <module name="SuppressionXpathSingleFilter">
+            <property name="checks" value="systemOutputCheck"/>
+            <property name="files" value=".*[/\\]src[/\\]test[/\\].*\.java$"/>
         </module>
         <module name="RegexpSinglelineJava">
             <property name="format" value="\.printStackTrace\(\)"/>
