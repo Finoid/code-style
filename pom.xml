@@ -6,7 +6,7 @@
 
     <groupId>io.github.finoid</groupId>
     <artifactId>code-style</artifactId>
-    <version>0.10.0</version>
+    <version>main</version>
     <description>A library that enforces the organization's code style using Checkstyle for consistent
         formatting across projects.
     </description>

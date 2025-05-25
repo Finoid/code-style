@@ -46,7 +46,7 @@ To enforce code style during build, add the following configuration:
         <dependencies>
             <dependency>
                 <groupId>io.github.finoid</groupId>
-                <artifactId>io.github.finoid</artifactId>
+                <artifactId>code-style</artifactId>
                 <version>${finoid-code-style.version}</version>
             </dependency>
             <dependency>
